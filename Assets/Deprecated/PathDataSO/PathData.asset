@@ -1,0 +1,2196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 900fb2c28b451eb49ad0b8225339a24f, type: 3}
+  m_Name: PathData
+  m_EditorClassIdentifier: 
+  pathsList:
+  - nodes:
+    - Position: {x: 98, y: 0, z: 87}
+      GCost: 0
+      HCost: 61
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 86}
+      GCost: 0
+      HCost: 61
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 85}
+      GCost: 0
+      HCost: 61
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 84}
+      GCost: 0
+      HCost: 61
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 97, y: 0, z: 84}
+      GCost: 1
+      HCost: 60
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 96, y: 0, z: 84}
+      GCost: 2
+      HCost: 59
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 95, y: 0, z: 84}
+      GCost: 3
+      HCost: 58
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 94, y: 0, z: 84}
+      GCost: 4
+      HCost: 57
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 93, y: 0, z: 84}
+      GCost: 5
+      HCost: 56
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 92, y: 0, z: 84}
+      GCost: 6
+      HCost: 55
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 91, y: 0, z: 84}
+      GCost: 7
+      HCost: 54
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 90, y: 0, z: 84}
+      GCost: 8
+      HCost: 53
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 89, y: 0, z: 84}
+      GCost: 9
+      HCost: 52
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 88, y: 0, z: 84}
+      GCost: 10
+      HCost: 51
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 87, y: 0, z: 84}
+      GCost: 11
+      HCost: 50
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 86, y: 0, z: 84}
+      GCost: 12
+      HCost: 49
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 85, y: 0, z: 84}
+      GCost: 13
+      HCost: 48
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 84, y: 0, z: 84}
+      GCost: 14
+      HCost: 47
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 83, y: 0, z: 84}
+      GCost: 15
+      HCost: 46
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 82, y: 0, z: 84}
+      GCost: 16
+      HCost: 45
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 81, y: 0, z: 84}
+      GCost: 17
+      HCost: 44
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 84}
+      GCost: 18
+      HCost: 43
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 79, y: 0, z: 84}
+      GCost: 19
+      HCost: 42
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 84}
+      GCost: 20
+      HCost: 0
+      FCost: 20
+      IsWalkable: 1
+  - nodes:
+    - Position: {x: 78, y: 0, z: 83}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 82}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 81}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 80}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 79}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 78}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 77}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 76}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 75}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 74}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 73}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 72}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 71}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 70}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 69}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 68}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 67}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 66}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 65}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 64}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 63}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 62}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 61}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 60}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 59}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 58}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 57}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 56}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 55}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 54}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 53}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 52}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 51}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 50}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 49}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 48}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 47}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 46}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 45}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 44}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 43}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 42}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 41}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 40}
+      GCost: 20
+      HCost: 41
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 77, y: 0, z: 40}
+      GCost: 21
+      HCost: 40
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 77, y: 0, z: 39}
+      GCost: 21
+      HCost: 40
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 77, y: 0, z: 38}
+      GCost: 21
+      HCost: 40
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 77, y: 0, z: 37}
+      GCost: 21
+      HCost: 40
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 77, y: 0, z: 36}
+      GCost: 21
+      HCost: 40
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 76, y: 0, z: 36}
+      GCost: 22
+      HCost: 39
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 75, y: 0, z: 36}
+      GCost: 23
+      HCost: 38
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 74, y: 0, z: 36}
+      GCost: 24
+      HCost: 37
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 73, y: 0, z: 36}
+      GCost: 25
+      HCost: 36
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 72, y: 0, z: 36}
+      GCost: 26
+      HCost: 35
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 71, y: 0, z: 36}
+      GCost: 27
+      HCost: 34
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 70, y: 0, z: 36}
+      GCost: 28
+      HCost: 33
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 36}
+      GCost: 29
+      HCost: 32
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 68, y: 0, z: 36}
+      GCost: 30
+      HCost: 31
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 67, y: 0, z: 36}
+      GCost: 31
+      HCost: 30
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 66, y: 0, z: 36}
+      GCost: 32
+      HCost: 29
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 65, y: 0, z: 36}
+      GCost: 33
+      HCost: 28
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 64, y: 0, z: 36}
+      GCost: 34
+      HCost: 27
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 63, y: 0, z: 36}
+      GCost: 35
+      HCost: 26
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 62, y: 0, z: 36}
+      GCost: 36
+      HCost: 25
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 61, y: 0, z: 36}
+      GCost: 37
+      HCost: 24
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 60, y: 0, z: 36}
+      GCost: 38
+      HCost: 23
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 59, y: 0, z: 36}
+      GCost: 39
+      HCost: 22
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 58, y: 0, z: 36}
+      GCost: 40
+      HCost: 21
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 57, y: 0, z: 36}
+      GCost: 41
+      HCost: 20
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 56, y: 0, z: 36}
+      GCost: 42
+      HCost: 19
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 55, y: 0, z: 36}
+      GCost: 43
+      HCost: 18
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 54, y: 0, z: 36}
+      GCost: 44
+      HCost: 17
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 53, y: 0, z: 36}
+      GCost: 45
+      HCost: 16
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 36}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 35}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 34}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 33}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 32}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 31}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 30}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 29}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 28}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 27}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 26}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 25}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 24}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 23}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 22}
+      GCost: 46
+      HCost: 15
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 51, y: 0, z: 22}
+      GCost: 47
+      HCost: 14
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 50, y: 0, z: 22}
+      GCost: 48
+      HCost: 13
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 49, y: 0, z: 22}
+      GCost: 49
+      HCost: 12
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 48, y: 0, z: 22}
+      GCost: 50
+      HCost: 11
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 47, y: 0, z: 22}
+      GCost: 51
+      HCost: 10
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 46, y: 0, z: 22}
+      GCost: 52
+      HCost: 9
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 45, y: 0, z: 22}
+      GCost: 53
+      HCost: 8
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 44, y: 0, z: 22}
+      GCost: 54
+      HCost: 7
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 43, y: 0, z: 22}
+      GCost: 55
+      HCost: 6
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 42, y: 0, z: 22}
+      GCost: 56
+      HCost: 5
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 41, y: 0, z: 22}
+      GCost: 57
+      HCost: 4
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 40, y: 0, z: 22}
+      GCost: 58
+      HCost: 3
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 39, y: 0, z: 22}
+      GCost: 59
+      HCost: 2
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 38, y: 0, z: 22}
+      GCost: 60
+      HCost: 1
+      FCost: 61
+      IsWalkable: 1
+    - Position: {x: 37, y: 0, z: 22}
+      GCost: 61
+      HCost: 0
+      FCost: 61
+      IsWalkable: 1
+  - nodes:
+    - Position: {x: 98, y: 0, z: 91}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 90}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 89}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 88}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 87}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 86}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 85}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 84}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 83}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 82}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 81}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 80}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 79}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 78}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 77}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 76}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 75}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 74}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 73}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 72}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 71}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 70}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 69}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 68}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 67}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 66}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 65}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 64}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 63}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 62}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 61}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 60}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 59}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 58}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 57}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 56}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 55}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 98, y: 0, z: 54}
+      GCost: 0
+      HCost: 71
+      FCost: 71
+      IsWalkable: 1
+    - Position: {x: 97, y: 0, z: 54}
+      GCost: 1
+      HCost: 18
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 96, y: 0, z: 54}
+      GCost: 2
+      HCost: 17
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 95, y: 0, z: 54}
+      GCost: 3
+      HCost: 16
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 94, y: 0, z: 54}
+      GCost: 4
+      HCost: 15
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 93, y: 0, z: 54}
+      GCost: 5
+      HCost: 14
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 92, y: 0, z: 54}
+      GCost: 6
+      HCost: 13
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 91, y: 0, z: 54}
+      GCost: 7
+      HCost: 12
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 90, y: 0, z: 54}
+      GCost: 8
+      HCost: 11
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 89, y: 0, z: 54}
+      GCost: 9
+      HCost: 10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 88, y: 0, z: 54}
+      GCost: 10
+      HCost: 9
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 87, y: 0, z: 54}
+      GCost: 11
+      HCost: 8
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 86, y: 0, z: 54}
+      GCost: 12
+      HCost: 7
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 85, y: 0, z: 54}
+      GCost: 13
+      HCost: 6
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 84, y: 0, z: 54}
+      GCost: 14
+      HCost: 5
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 83, y: 0, z: 54}
+      GCost: 15
+      HCost: 4
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 82, y: 0, z: 54}
+      GCost: 16
+      HCost: 3
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 81, y: 0, z: 54}
+      GCost: 17
+      HCost: 2
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 54}
+      GCost: 18
+      HCost: 1
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 79, y: 0, z: 54}
+      GCost: 19
+      HCost: 0
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 54}
+      GCost: 20
+      HCost: -1
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 77, y: 0, z: 54}
+      GCost: 21
+      HCost: -2
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 76, y: 0, z: 54}
+      GCost: 22
+      HCost: -3
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 75, y: 0, z: 54}
+      GCost: 23
+      HCost: -4
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 74, y: 0, z: 54}
+      GCost: 24
+      HCost: -5
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 73, y: 0, z: 54}
+      GCost: 25
+      HCost: -6
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 72, y: 0, z: 54}
+      GCost: 26
+      HCost: -7
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 71, y: 0, z: 54}
+      GCost: 27
+      HCost: -8
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 70, y: 0, z: 54}
+      GCost: 28
+      HCost: -9
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 54}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 68, y: 0, z: 54}
+      GCost: 30
+      HCost: -11
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 67, y: 0, z: 54}
+      GCost: 31
+      HCost: -12
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 66, y: 0, z: 54}
+      GCost: 32
+      HCost: -13
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 65, y: 0, z: 54}
+      GCost: 33
+      HCost: -14
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 64, y: 0, z: 54}
+      GCost: 34
+      HCost: -15
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 63, y: 0, z: 54}
+      GCost: 35
+      HCost: -16
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 62, y: 0, z: 54}
+      GCost: 36
+      HCost: -17
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 61, y: 0, z: 54}
+      GCost: 37
+      HCost: -18
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 60, y: 0, z: 54}
+      GCost: 38
+      HCost: -19
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 59, y: 0, z: 54}
+      GCost: 39
+      HCost: -20
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 58, y: 0, z: 54}
+      GCost: 40
+      HCost: -21
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 57, y: 0, z: 54}
+      GCost: 41
+      HCost: -22
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 56, y: 0, z: 54}
+      GCost: 42
+      HCost: -23
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 55, y: 0, z: 54}
+      GCost: 43
+      HCost: -24
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 54, y: 0, z: 54}
+      GCost: 44
+      HCost: -25
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 53, y: 0, z: 54}
+      GCost: 45
+      HCost: -26
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 54}
+      GCost: 46
+      HCost: -27
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 51, y: 0, z: 54}
+      GCost: 47
+      HCost: -28
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 50, y: 0, z: 54}
+      GCost: 48
+      HCost: -29
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 49, y: 0, z: 54}
+      GCost: 49
+      HCost: -30
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 48, y: 0, z: 54}
+      GCost: 50
+      HCost: -31
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 47, y: 0, z: 54}
+      GCost: 51
+      HCost: -32
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 46, y: 0, z: 54}
+      GCost: 52
+      HCost: -33
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 45, y: 0, z: 54}
+      GCost: 53
+      HCost: -34
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 44, y: 0, z: 54}
+      GCost: 54
+      HCost: -35
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 43, y: 0, z: 54}
+      GCost: 55
+      HCost: -36
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 42, y: 0, z: 54}
+      GCost: 56
+      HCost: -37
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 41, y: 0, z: 54}
+      GCost: 57
+      HCost: -38
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 40, y: 0, z: 54}
+      GCost: 58
+      HCost: -39
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 39, y: 0, z: 54}
+      GCost: 59
+      HCost: -40
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 38, y: 0, z: 54}
+      GCost: 60
+      HCost: -41
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 37, y: 0, z: 54}
+      GCost: 61
+      HCost: -42
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 36, y: 0, z: 54}
+      GCost: 62
+      HCost: -43
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 35, y: 0, z: 54}
+      GCost: 63
+      HCost: -44
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 34, y: 0, z: 54}
+      GCost: 64
+      HCost: -45
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 33, y: 0, z: 54}
+      GCost: 65
+      HCost: -46
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 32, y: 0, z: 54}
+      GCost: 66
+      HCost: -47
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 31, y: 0, z: 54}
+      GCost: 67
+      HCost: -48
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 30, y: 0, z: 54}
+      GCost: 68
+      HCost: -49
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 29, y: 0, z: 54}
+      GCost: 69
+      HCost: -50
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 28, y: 0, z: 54}
+      GCost: 70
+      HCost: -51
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 27, y: 0, z: 54}
+      GCost: 71
+      HCost: 0
+      FCost: 71
+      IsWalkable: 1
+  - nodes:
+    - Position: {x: 27, y: 0, z: 55}
+      GCost: 71
+      HCost: -52
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 27, y: 0, z: 56}
+      GCost: 71
+      HCost: -52
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 27, y: 0, z: 57}
+      GCost: 71
+      HCost: -52
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 27, y: 0, z: 58}
+      GCost: 71
+      HCost: -52
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 28, y: 0, z: 58}
+      GCost: 70
+      HCost: -51
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 29, y: 0, z: 58}
+      GCost: 69
+      HCost: -50
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 30, y: 0, z: 58}
+      GCost: 68
+      HCost: -49
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 31, y: 0, z: 58}
+      GCost: 67
+      HCost: -48
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 32, y: 0, z: 58}
+      GCost: 66
+      HCost: -47
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 33, y: 0, z: 58}
+      GCost: 65
+      HCost: -46
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 34, y: 0, z: 58}
+      GCost: 64
+      HCost: -45
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 35, y: 0, z: 58}
+      GCost: 63
+      HCost: -44
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 36, y: 0, z: 58}
+      GCost: 62
+      HCost: -43
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 37, y: 0, z: 58}
+      GCost: 61
+      HCost: -42
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 38, y: 0, z: 58}
+      GCost: 60
+      HCost: -41
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 39, y: 0, z: 58}
+      GCost: 59
+      HCost: -40
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 40, y: 0, z: 58}
+      GCost: 58
+      HCost: -39
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 41, y: 0, z: 58}
+      GCost: 57
+      HCost: -38
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 42, y: 0, z: 58}
+      GCost: 56
+      HCost: -37
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 43, y: 0, z: 58}
+      GCost: 55
+      HCost: -36
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 44, y: 0, z: 58}
+      GCost: 54
+      HCost: -35
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 45, y: 0, z: 58}
+      GCost: 53
+      HCost: -34
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 46, y: 0, z: 58}
+      GCost: 52
+      HCost: -33
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 47, y: 0, z: 58}
+      GCost: 51
+      HCost: -32
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 48, y: 0, z: 58}
+      GCost: 50
+      HCost: -31
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 49, y: 0, z: 58}
+      GCost: 49
+      HCost: -30
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 50, y: 0, z: 58}
+      GCost: 48
+      HCost: -29
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 51, y: 0, z: 58}
+      GCost: 47
+      HCost: -28
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 52, y: 0, z: 58}
+      GCost: 46
+      HCost: -27
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 53, y: 0, z: 58}
+      GCost: 45
+      HCost: -26
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 54, y: 0, z: 58}
+      GCost: 44
+      HCost: -25
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 55, y: 0, z: 58}
+      GCost: 43
+      HCost: -24
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 56, y: 0, z: 58}
+      GCost: 42
+      HCost: -23
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 57, y: 0, z: 58}
+      GCost: 41
+      HCost: -22
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 58, y: 0, z: 58}
+      GCost: 40
+      HCost: -21
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 59, y: 0, z: 58}
+      GCost: 39
+      HCost: -20
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 60, y: 0, z: 58}
+      GCost: 38
+      HCost: -19
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 61, y: 0, z: 58}
+      GCost: 37
+      HCost: -18
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 62, y: 0, z: 58}
+      GCost: 36
+      HCost: -17
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 63, y: 0, z: 58}
+      GCost: 35
+      HCost: -16
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 64, y: 0, z: 58}
+      GCost: 34
+      HCost: -15
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 65, y: 0, z: 58}
+      GCost: 33
+      HCost: -14
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 66, y: 0, z: 58}
+      GCost: 32
+      HCost: -13
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 67, y: 0, z: 58}
+      GCost: 31
+      HCost: -12
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 68, y: 0, z: 58}
+      GCost: 30
+      HCost: -11
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 58}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 59}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 60}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 61}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 62}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 63}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 64}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 65}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 66}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 67}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 68}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 69}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 70}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 71}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 72}
+      GCost: 29
+      HCost: -10
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 70, y: 0, z: 72}
+      GCost: 28
+      HCost: -9
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 71, y: 0, z: 72}
+      GCost: 27
+      HCost: -8
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 72, y: 0, z: 72}
+      GCost: 26
+      HCost: -7
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 73, y: 0, z: 72}
+      GCost: 25
+      HCost: -6
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 74, y: 0, z: 72}
+      GCost: 24
+      HCost: -5
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 75, y: 0, z: 72}
+      GCost: 23
+      HCost: -4
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 76, y: 0, z: 72}
+      GCost: 22
+      HCost: -3
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 77, y: 0, z: 72}
+      GCost: 21
+      HCost: -2
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 72}
+      GCost: 20
+      HCost: -1
+      FCost: 19
+      IsWalkable: 1
+    - Position: {x: 79, y: 0, z: 72}
+      GCost: 19
+      HCost: 0
+      FCost: 19
+      IsWalkable: 1
+  - nodes:
+    - Position: {x: 92, y: 0, z: 76}
+      GCost: 6
+      HCost: 12
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 91, y: 0, z: 76}
+      GCost: 7
+      HCost: 11
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 90, y: 0, z: 76}
+      GCost: 8
+      HCost: 10
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 89, y: 0, z: 76}
+      GCost: 9
+      HCost: 9
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 88, y: 0, z: 76}
+      GCost: 10
+      HCost: 8
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 87, y: 0, z: 76}
+      GCost: 11
+      HCost: 7
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 86, y: 0, z: 76}
+      GCost: 12
+      HCost: 6
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 85, y: 0, z: 76}
+      GCost: 13
+      HCost: 5
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 84, y: 0, z: 76}
+      GCost: 14
+      HCost: 4
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 83, y: 0, z: 76}
+      GCost: 15
+      HCost: 3
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 82, y: 0, z: 76}
+      GCost: 16
+      HCost: 2
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 81, y: 0, z: 76}
+      GCost: 17
+      HCost: 1
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 76}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 79, y: 0, z: 76}
+      GCost: 19
+      HCost: -1
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 76}
+      GCost: 20
+      HCost: -2
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 77, y: 0, z: 76}
+      GCost: 21
+      HCost: -3
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 76, y: 0, z: 76}
+      GCost: 22
+      HCost: -4
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 75, y: 0, z: 76}
+      GCost: 23
+      HCost: -5
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 74, y: 0, z: 76}
+      GCost: 24
+      HCost: -6
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 73, y: 0, z: 76}
+      GCost: 25
+      HCost: -7
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 72, y: 0, z: 76}
+      GCost: 26
+      HCost: -8
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 71, y: 0, z: 76}
+      GCost: 27
+      HCost: -9
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 70, y: 0, z: 76}
+      GCost: 28
+      HCost: -10
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 76}
+      GCost: 29
+      HCost: -11
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 68, y: 0, z: 76}
+      GCost: 30
+      HCost: -12
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 67, y: 0, z: 76}
+      GCost: 31
+      HCost: -13
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 66, y: 0, z: 76}
+      GCost: 32
+      HCost: -14
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 65, y: 0, z: 76}
+      GCost: 33
+      HCost: -15
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 64, y: 0, z: 76}
+      GCost: 34
+      HCost: -16
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 63, y: 0, z: 76}
+      GCost: 35
+      HCost: -17
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 62, y: 0, z: 76}
+      GCost: 36
+      HCost: -18
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 61, y: 0, z: 76}
+      GCost: 37
+      HCost: -19
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 60, y: 0, z: 76}
+      GCost: 38
+      HCost: -20
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 59, y: 0, z: 76}
+      GCost: 39
+      HCost: -21
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 58, y: 0, z: 76}
+      GCost: 40
+      HCost: -22
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 57, y: 0, z: 76}
+      GCost: 41
+      HCost: -23
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 56, y: 0, z: 76}
+      GCost: 42
+      HCost: -24
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 55, y: 0, z: 76}
+      GCost: 43
+      HCost: -25
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 54, y: 0, z: 76}
+      GCost: 44
+      HCost: -26
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 53, y: 0, z: 76}
+      GCost: 45
+      HCost: 0
+      FCost: 45
+      IsWalkable: 1
+  - nodes:
+    - Position: {x: 54, y: 0, z: 76}
+      GCost: 44
+      HCost: -26
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 55, y: 0, z: 76}
+      GCost: 43
+      HCost: -25
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 56, y: 0, z: 76}
+      GCost: 42
+      HCost: -24
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 57, y: 0, z: 76}
+      GCost: 41
+      HCost: -23
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 58, y: 0, z: 76}
+      GCost: 40
+      HCost: -22
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 59, y: 0, z: 76}
+      GCost: 39
+      HCost: -21
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 60, y: 0, z: 76}
+      GCost: 38
+      HCost: -20
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 61, y: 0, z: 76}
+      GCost: 37
+      HCost: -19
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 62, y: 0, z: 76}
+      GCost: 36
+      HCost: -18
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 63, y: 0, z: 76}
+      GCost: 35
+      HCost: -17
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 64, y: 0, z: 76}
+      GCost: 34
+      HCost: -16
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 65, y: 0, z: 76}
+      GCost: 33
+      HCost: -15
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 66, y: 0, z: 76}
+      GCost: 32
+      HCost: -14
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 67, y: 0, z: 76}
+      GCost: 31
+      HCost: -13
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 68, y: 0, z: 76}
+      GCost: 30
+      HCost: -12
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 69, y: 0, z: 76}
+      GCost: 29
+      HCost: -11
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 70, y: 0, z: 76}
+      GCost: 28
+      HCost: -10
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 71, y: 0, z: 76}
+      GCost: 27
+      HCost: -9
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 72, y: 0, z: 76}
+      GCost: 26
+      HCost: -8
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 73, y: 0, z: 76}
+      GCost: 25
+      HCost: -7
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 74, y: 0, z: 76}
+      GCost: 24
+      HCost: -6
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 75, y: 0, z: 76}
+      GCost: 23
+      HCost: -5
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 76, y: 0, z: 76}
+      GCost: 22
+      HCost: -4
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 77, y: 0, z: 76}
+      GCost: 21
+      HCost: -3
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 78, y: 0, z: 76}
+      GCost: 20
+      HCost: -2
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 79, y: 0, z: 76}
+      GCost: 19
+      HCost: -1
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 76}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 75}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 74}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 73}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 72}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 71}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 70}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 69}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 68}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 67}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 66}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 65}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 64}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 63}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 62}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 61}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 60}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 59}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 58}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 57}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 56}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 55}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 54}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 53}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 52}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 51}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 50}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 49}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 48}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 47}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 46}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 45}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 44}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 43}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 42}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 41}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 40}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 39}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 38}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 37}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 36}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 35}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 34}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 33}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 32}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 31}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 30}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 29}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 28}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 27}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 26}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 25}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 24}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 23}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 22}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 21}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 20}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 19}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 18}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 17}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 16}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 15}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
+    - Position: {x: 80, y: 0, z: 14}
+      GCost: 18
+      HCost: 0
+      FCost: 18
+      IsWalkable: 1
