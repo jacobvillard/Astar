@@ -1,4 +1,5 @@
 using UnityEngine;
+using Weapon;
 
 /// <summary>
 /// A script for aiming and shooting

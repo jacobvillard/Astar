@@ -2,12 +2,29 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-
+/// <summary>
+/// This script is used to make the boids move in a flock.
+/// </summary>
 public class Boid : MonoBehaviour {
+    /// <summary>
+    /// Speed of the boids
+    /// </summary>
     public float speed = 5.0f;
+    /// <summary>
+    /// Detection radius of the boids
+    /// </summary>
     public float detectionRadius = 5.0f;
+    /// <summary>
+    /// Obstacle layer for the boids
+    /// </summary>
     public LayerMask obstacleLayer;
+    /// <summary>
+    /// Ray distance for the boids
+    /// </summary>
     public float rayDistance = 5.0f;
+    /// <summary>
+    /// Smooth time for the boids
+    /// </summary>
     public float smoothTime = 0.5f; 
 
     private Vector3 velocity = Vector3.zero;
@@ -19,6 +36,9 @@ public class Boid : MonoBehaviour {
     public float separationWeight = 1f;
     public float obstacleAvoidanceWeight = 1f;
 
+    /// <summary>
+    /// Update is called once per frame
+    /// </summary>
     private void Update() {
         var context = GetNearbyObjects();
         var alignmentVector = CalculateAlignmentVector(context) * alignmentWeight;
@@ -44,13 +64,21 @@ public class Boid : MonoBehaviour {
         return (from c in contextColliders where c != GetComponent<Collider>() select c.transform).ToList();
     }
 
-    //Align
+    /// <summary>
+    /// Align the boids
+    /// </summary>
+    /// <param name="context"></param>
+    /// <returns></returns>
     private static Vector3 CalculateAlignmentVector(IEnumerable<Transform> context) {
         var alignmentVector = context.Aggregate(Vector3.zero, (current, item) => current + item.forward);
         return alignmentVector.normalized;
     }
 
-    //Cohere
+    /// <summary>
+    /// Cohesion of the boids
+    /// </summary>
+    /// <param name="context"></param>
+    /// <returns></returns>
     private Vector3 CalculateCohesionVector(IReadOnlyCollection<Transform> context) {
         var cohesionVector = context.Aggregate(Vector3.zero, (current, item) => current + item.position);
         cohesionVector /= context.Count;
@@ -58,7 +86,11 @@ public class Boid : MonoBehaviour {
         return cohesionVector.normalized;
     }
 
-    //Separate
+    /// <summary>
+    /// Separation of the boids
+    /// </summary>
+    /// <param name="context"></param>
+    /// <returns></returns>
     private Vector3 CalculateSeparationVector(IEnumerable<Transform> context) {
         var separationVector = context.Where(item => Vector3.Distance(item.position, transform.position) < NeighborDistance).Aggregate(Vector3.zero, (current, item) => current + (transform.position - item.position));
         return separationVector.normalized;

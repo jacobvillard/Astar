@@ -56,18 +56,27 @@ public class PlayerMovement : MonoBehaviour {
         PlayerAndCameraRotation();
     }
 
-    private void PlayerAndCameraRotation()
-    {
+    /// <summary>
+    /// Controls player and camera rotation
+    /// </summary>
+    private void PlayerAndCameraRotation() {
         rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
         rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
         playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
         transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
     }
 
+    /// <summary>
+    /// Applies gravity to the player when not grounded
+    /// </summary>
     private void ApplyGravity() {
         if (!characterController.isGrounded) moveDirection.y -= gravity * Time.deltaTime;
     }
 
+    /// <summary>
+    /// Controls the jumping movement of the player
+    /// </summary>
+    /// <param name="movementDirectionY"></param>
     private void JumpingMovement(float movementDirectionY) {
         if (Input.GetKey(jumpKey) && characterController.isGrounded) moveDirection.y = jumpSpeed;
         else moveDirection.y = movementDirectionY;

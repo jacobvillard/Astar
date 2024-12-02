@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Game_Management;
+using Grid;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -15,7 +17,14 @@ public class AgentNav : MonoBehaviour
     private Node startNodeCluster, endNodeCluster;
     private Node[,] grid;
     private Cluster[,] clusters;
+    
+    /// <summary>
+    /// The path the agent will take
+    /// </summary>
     public List<Node> Path{ get; set; }
+    /// <summary>
+    /// The path the agent will take between clusters
+    /// </summary>
     public List<Cluster> ClusterPath{ get; set; }
     
     [Header("Fine Tuning"), SerializeField]

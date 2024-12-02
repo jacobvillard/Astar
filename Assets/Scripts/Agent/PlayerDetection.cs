@@ -1,4 +1,5 @@
 using System;
+using Game_Management;
 using UnityEngine;
 
 /// <summary>
@@ -7,6 +8,10 @@ using UnityEngine;
 public class PlayerDetection : MonoBehaviour {
     private GameObject player;
     private Light spotlight; // Reference to the spotlight component
+    
+    /// <summary>
+    /// Boolean to check if player is in range of the spotlight
+    /// </summary>
     public bool playerInRange;
 
     private void Awake() {
@@ -16,10 +21,13 @@ public class PlayerDetection : MonoBehaviour {
 
     private void Update() {
         playerInRange = IsPlayerInSpotlight();
-        if (playerInRange) endGame();
+        if (playerInRange) EndGame();
     }
     
-    private void endGame() {
+    /// <summary>
+    /// End the game if player is in spotlight
+    /// </summary>
+    private static void EndGame() {
         Time.timeScale = 0;
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;

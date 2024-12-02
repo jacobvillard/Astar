@@ -1,7 +1,14 @@
+using Game_Management;
 using UnityEngine;
 
 public class Agent : Enemy {
+    /// <summary>
+    /// Boid prefab to instantiate when agent dies
+    /// </summary>
     public GameObject boidPrefab; 
+    /// <summary>
+    /// number of boids to instantiate when agent dies
+    /// </summary>
     public int numberOfBoids = 10;
     
     /// <summary>
